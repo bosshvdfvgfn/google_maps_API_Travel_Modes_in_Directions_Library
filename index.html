@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Modes in Directions</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <link rel="style.css" type="text/css" href="/style.css" />
+        <script src="/main.js"></script>
+    </head>
+    <body>
+
+        <div id="floatint-pannel">
+            <div>
+                <div>
+                    <input type="text" id="from" placeholder="Start">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <input type="text" id="to" placeholder="Destination"
+                </div>
+            </div>
+        </div>
+        <b>Mode of Travel</b>
+        <select id="mode"></select>
+
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqbeorTTZ0PF0VOtjh9HVsyd1TjbCFia4&callback=initMap&libraries=&v=weekly"
+            async
+        ></script>
+    </body>
+</html>
